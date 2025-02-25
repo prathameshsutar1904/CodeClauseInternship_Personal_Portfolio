@@ -1,1 +1,1 @@
-# CodeClauseInternship_Interactive_Resume_Builder
+# CodeClauseInternship_Personal_Portfolio
