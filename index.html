@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Prathamesh Sutar</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A IT undergraduate from Dr. D.Y. Patil ACS College with a strong foundation in front-end development <br>and cloud computing, passionate about crafting responsive and user-friendly web solutions. Experienced in project development and event management, with a focus on delivering creative and impactful results.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/prathameshsutar"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://x.com/Prathamesh_1904"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="https://github.com/prathameshsutar1904"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/pratt.1904/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/16hvwMzxY-o-gxYvkkceg7mrSdJM8EgA_/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/1722605133408.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/1731228259242.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Front-end developer passionate about creating responsive, user-friendly interfaces. Skilled in HTML, CSS, JavaScript, and Tailwind CSS, with experience building intuitive and engaging web applications.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Passionate web developer focused on building dynamic, responsive websites. Skilled in front-end and back-end technologies, with a strong emphasis on creating seamless user experiences and efficient web solutions.</p>
+            
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Designer</h3>
+            <p>Creative web designer skilled in crafting visually appealing and user-friendly website layouts. Proficient in HTML, CSS, and modern design tools, with a focus on responsive and engaging designs.</p>
+            
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Freelancer</h3>
+            <p>Experienced freelance event manager specializing in planning and executing seamless events. Skilled in coordination, time management, and delivering memorable experiences tailored to client needs.</p>
+            
+        </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/alvan-nee-T-0EW-SEbsE-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Meerut Pet Care</h4>
+                    <p>Pet care website UI.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/ilya-pavlov-OqtafYT5kTw-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>Simple arithmetic calculator.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Interactive Resume Builder</h4>
+                    <p>Visually appealing design services.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+           
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="10" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 | Designed by Pratt | All Rights Reserved </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
